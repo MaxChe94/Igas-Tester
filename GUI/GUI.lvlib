@@ -4,7 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Get Alg Result Msg.lvclass" Type="LVClass" URL="../../GUI Messages/Get Alg Result Msg/Get Alg Result Msg.lvclass"/>
+		<Item Name="Get Data from Modbus Msg.lvclass" Type="LVClass" URL="../../GUI Messages/Get Data from Modbus Msg/Get Data from Modbus Msg.lvclass"/>
+	</Item>
 	<Item Name="GUI.lvclass" Type="LVClass" URL="../GUI.lvclass"/>
 	<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 </Library>
