@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="CCSymbols" Type="Str">AF_Debug_Trace,TRUE;</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="GIT_FILE" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -132,7 +135,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{174E3629-FF94-4FD0-888D-38210A2161B2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC99410D-62E2-470F-9D9D-0CA76CDF6B1F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI.lvlib/Launcher.vi</Property>
